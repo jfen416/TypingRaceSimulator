@@ -173,7 +173,8 @@ public class Typist
      *
      * @param amount the number of characters to slide back (must be positive)
      */
-    
+
+        //slideback
         public void slideBack(int amount)
         {
             if (amount < 0)
