@@ -8,6 +8,7 @@ import java.util.Map;
 import javax.swing.*;
 import javax.swing.text.*;
 
+//Main class
 public class TypingRaceGUI extends JFrame
 {
     private int passageLength;
