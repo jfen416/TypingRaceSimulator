@@ -133,7 +133,7 @@ public class TypingRaceGUI extends JFrame
         Integer[] counts = {2, 3, 4, 5, 6};
         typistCountDropdown = new JComboBox<>(counts);
 
-        // Keyboard dropdown
+        // Keyboard dropdown.
         String[] keyboards = {"Mechanical", "Membrane", "Touchscreen", "Stenography"};
         keyboardDropdown = new JComboBox<>(keyboards);
 
