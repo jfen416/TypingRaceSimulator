@@ -116,7 +116,7 @@ public class TypingRaceGUI extends JFrame
         topPanel.setBackground(new Color(45, 45, 45));
         topPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
-        // Passage dropdown
+        // Passage dropdown.
         String[] passages = {"Short", "Medium", "Long", "Custom"};
         passageDropdown = new JComboBox<>(passages);
 
