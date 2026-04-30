@@ -307,7 +307,7 @@ public class TypingRaceGUI extends JFrame
         });
 
         // -------------------------
-        // LEADERBOARD BUTTON
+        // LEADERBOARD BUTTON.
         // -------------------------
         leaderboardButton.addActionListener(ev -> {
             JOptionPane.showMessageDialog(this,
