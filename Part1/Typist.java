@@ -196,6 +196,7 @@ public class Typist
      *
      * @param newAccuracy the new accuracy rating
      */
+
     public void setAccuracy(double newAccuracy)
     {
         if (newAccuracy < 0.0)
@@ -217,6 +218,8 @@ public class Typist
      *
      * @param newSymbol the new symbol character
      */
+
+     //symbol setter
     public void setSymbol(char newSymbol)
     {
         symbol = newSymbol;
