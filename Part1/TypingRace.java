@@ -110,7 +110,7 @@ public class TypingRace
         }
 
         // TODO (Task 2a): Print the winner's name here
-        //(J.F) Compare all typists and choose the one with the highest progress instead of using seat order so no unfair behaviour.
+        //(J.F) Compare all typists and choose the one with the highest progress instead of using seat order so no unfair behaviour
         Typist winner = seat1Typist;
 
         if (seat2Typist.getProgress() > winner.getProgress())
