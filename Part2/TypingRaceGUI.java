@@ -129,7 +129,7 @@ public class TypingRaceGUI extends JFrame
             customPassageField.setEnabled(choice.equals("Custom"));
         });
 
-        // Typist count dropdown (2–6)
+        // Typist count dropdown (2–6).
         Integer[] counts = {2, 3, 4, 5, 6};
         typistCountDropdown = new JComboBox<>(counts);
 
