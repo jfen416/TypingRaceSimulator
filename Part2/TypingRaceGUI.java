@@ -306,9 +306,9 @@ public class TypingRaceGUI extends JFrame
             updateDisplay();
         });
 
-        // -------------------------
+        // --------------------------
         // LEADERBOARD BUTTON.
-        // -------------------------
+        // --------------------------
         leaderboardButton.addActionListener(ev -> {
             JOptionPane.showMessageDialog(this,
                     "--- BEST WPM LEADERBOARD ---\n" + getLeaderboardText()
