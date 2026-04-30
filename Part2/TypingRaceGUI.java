@@ -274,7 +274,7 @@ public class TypingRaceGUI extends JFrame
         });
 
         // -------------------------
-        // PAUSE/RESUME BUTTON
+        // PAUSE/RESUME BUTTON.
         // -------------------------
         pauseButton.addActionListener(ev -> {
             if (timer.isRunning())
