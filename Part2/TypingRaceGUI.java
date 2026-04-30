@@ -100,7 +100,7 @@ public class TypingRaceGUI extends JFrame
         customSymbols = new HashMap<>();
         typistColors = new HashMap<>();
 
-        // Window settings
+        // Window settings.
         setTitle("Typing Race Simulator");
         setSize(950, 820);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
