@@ -408,7 +408,7 @@ public class TypingRaceGUI extends JFrame
         {
             String name = "TYPER_" + i;
 
-            // Ask for symbol only once
+            // Ask for symbol only once.
             if (!customSymbols.containsKey(name))
             {
                 String symbolInput = JOptionPane.showInputDialog(this,
