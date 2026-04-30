@@ -60,7 +60,7 @@ public class TypingRaceGUI extends JFrame
     // Store accuracy rating before race (to show change)
     private HashMap<String, Double> oldAccuracyRating;
 
-    // Full history (each typist -> list of results strings)
+    // Full history (each typist -> list of results strings).
     private HashMap<String, ArrayList<String>> raceHistory;
 
     private long raceStartTime;
