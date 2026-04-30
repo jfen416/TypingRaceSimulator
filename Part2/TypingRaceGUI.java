@@ -137,7 +137,7 @@ public class TypingRaceGUI extends JFrame
         String[] keyboards = {"Mechanical", "Membrane", "Touchscreen", "Stenography"};
         keyboardDropdown = new JComboBox<>(keyboards);
 
-        // Modifiers
+        // Modifiers.
         autoCorrectBox = new JCheckBox("Autocorrect (less slide back)");
         caffeineBox = new JCheckBox("Caffeine Mode (faster but burnout)");
         nightShiftBox = new JCheckBox("Night Shift (harder)");
