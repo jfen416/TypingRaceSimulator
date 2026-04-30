@@ -52,6 +52,7 @@ public class Typist
      * @param turns the number of turns the burnout will last
      */
 
+     //burnout logic
     public void burnOut(int turns) {
     if (turns < 0) {
         turns = 0;
