@@ -80,7 +80,7 @@ public class TypingRace
 
         // Reset all typists to the start of the passage
         // (Ty was in a hurry here)
-        //(J.F) He forgot to reset seat3.
+        //(J.F) He forgot to reset seat3
         //(J.F) Null check
         if (seat1Typist != null) seat1Typist.resetToStart();
         if (seat2Typist != null) seat2Typist.resetToStart();
