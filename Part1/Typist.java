@@ -32,7 +32,7 @@ public class Typist
      *
      * @param typistSymbol  a single Unicode character representing this typist (e.g. '①', '②', '③')
      * @param typistName    the name of the typist (e.g. "TURBOFINGERS")
-     * @param typistAccuracy the typist's accuracy rating, between 0.0 and 1.0
+     * @param typistAccuracy the typist's accuracy rating, between 0.0 and 1.0.
      */
     public Typist(char typistSymbol, String typistName, double typistAccuracy)
     {
